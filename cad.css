@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(203, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; 
+    padding: 0; 
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 480px;
+    padding: 20px; 
+    background-color: #fff;
+}
+
+.box1 h1 {
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
+    color: rgb(56, 55, 55);
+}
+
+.box1 h2 {
+    font-size: 15px;
+    color: rgb(89, 87, 87);
+    font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
+}
+
+.box1 input {
+    height: 40px;
+    width: 300px;
+    border: 1px solid #7b7a7a; 
+    border-radius: 5px; 
+}
+.box1 input.error1 {
+    height: 40px;
+    width: 300px;
+    border: 1px solid #ff0000; 
+    border-radius: 5px; 
+}
+
+
+.box1 h3 {
+    font-size: 10px;
+    color: rgb(252, 0, 0); 
+}
+
+.box1 .button {
+    text-align: center; 
+}
+
+.box1 input[type="submit"] {
+    height: 40px;
+    width: 300px;
+    background-color: rgb(128, 255, 192);
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
